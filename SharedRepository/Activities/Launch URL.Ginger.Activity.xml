@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Launch URL" AutomationStatus="Development" Created="6/12/2018 4:56:32 AM" CreatedBy="surajgh" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" ExternalID="" Guid="4bf02bf5-b309-4775-ad50-47573bf162f8" LastUpdate="10/12/2018 1:02:32 PM" LastUpdateBy="surajgh" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="1">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="6/12/2018 5:13:26 AM" CreatedBy="surajgh" Description="Goto URL Action" EnableRetryMechanism="False" ExternalID="" Guid="b204efac-3d8c-409d-b6d3-f393a5613b76" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="3af01946-b27c-4ca9-9ab3-53da41320b41" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="c03d8f8a-725e-4675-a124-6084b702f5c0" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{EnvURL App=OMS}" Value="{EnvURL App=OMS}" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+<GingerCore.Actions.ActSwitchWindow Active="True" ConfigOutputDS="False" Created="6/12/2018 5:33:38 AM" CreatedBy="surajgh" Description="Switch to Window OPUS Login" EnableRetryMechanism="False" Guid="117b4619-58bf-49b0-a71d-b01aceb56169" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="OPUS Login" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WaitTime="-1" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="731a4b1a-0abf-43ed-b76a-6fbed3e633a4" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="f84c980c-ae49-4bd7-a909-ec586781df93" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActSwitchWindow>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

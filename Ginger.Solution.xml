@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<Ginger.Environments.Solution AlmType="QC" Created="6/12/2018 4:53:04 AM" CreatedBy="surajgh" Guid="d80fefe0-4ad8-4c0c-8b37-df9aed672210" LastBusinessFlowFileName="C:\Users\surajgh\Desktop\Ginger\OPUS Regression\\BusinessFlows\BAU\TC1_BAU_Provide_HSIA+IPTV.Ginger.BusinessFlow.xml" LastUpdate="10/4/2018 11:59:49 AM" LastUpdateBy="surajgh" Name="OPUS Regression " ParentGuid="00000000-0000-0000-0000-000000000000" ShowIndicationkForLockedItems="False" Version="17">
+<ApplicationPlatforms>
+<GingerCore.Platforms.ApplicationPlatform AppName="MyWebApp" CoreGUID="00000000-0000-0000-0000-000000000000" Created="6/12/2018 4:56:32 AM" CreatedBy="surajgh" Guid="55be075c-8f21-4537-b9cc-617cfdda0390" GUID="00000000-0000-0000-0000-000000000000" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" Version="0" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<Ginger.Reports.ExecutionLoggerConfiguration Created="6/12/2018 4:58:24 AM" CreatedBy="surajgh" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults\" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="c990d35f-9fcf-4841-98f4-62f29bba3bfc" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<ExternalItemsFields>
+</ExternalItemsFields>
+
+<HTMLReportsConfigurationSetList>
+<Ginger.Reports.HTMLReportsConfiguration Created="6/12/2018 4:58:24 AM" CreatedBy="surajgh" Guid="f35ce985-dc57-4ae1-b36d-fc8cbecd469f" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsAutomaticProdIsEnabled="False" HTMLReportsFolder="~\HTMLReports\" HTMLReportTemplatesSeq="0" IsSelected="True" LastUpdate="1/1/0001 12:00:00 AM" LimitReportFolderSize="False" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" Version="0" />
+</HTMLReportsConfigurationSetList>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+</Ginger.Environments.Solution>

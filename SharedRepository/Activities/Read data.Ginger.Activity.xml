@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Read data" AutomationStatus="Development" Created="6/22/2018 3:08:56 PM" CreatedBy="surajgh" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" ExternalID="" Guid="e6c3445b-c470-4663-aead-f3af18ade8f1" LastUpdate="10/12/2018 1:02:32 PM" LastUpdateBy="surajgh" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="1">
+<Acts>
+<GingerCore.Actions.ActExcel Active="True" ColMappingRules="" ConfigOutputDS="False" Created="6/22/2018 3:09:10 PM" CreatedBy="surajgh" Description="Excel Action" EnableRetryMechanism="False" ExcelActionType="ReadData" ExcelFileName="C:\USERS\SURAJGH\DESKTOP\GINGER\OPUS REGRESSION\DOCUMENTS\OPUS.XLSX" ExternalID="" Guid="e534ca04-b643-41f6-a47f-f85979a19354" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="1ed7bab5-fa99-4e13-9564-f8809acf2a8f" Platform="NA" RetryMechanismInterval="5" SelectAllRows="False" SelectRowsWhere="TestCase='TC9_RC1_PRV_HSIA_DTV'" SheetName="Data" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="96519c72-dd15-4765-952d-0f36433768b8" Param="ColMappingRules" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="894c2ff5-57b2-43d9-8aca-8523d805f959" Param="ExcelFileName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="C:\USERS\SURAJGH\DESKTOP\GINGER\OPUS REGRESSION\DOCUMENTS\OPUS.XLSX" Value="C:\USERS\SURAJGH\DESKTOP\GINGER\OPUS REGRESSION\DOCUMENTS\OPUS.XLSX" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="feddd80a-debd-441c-91ba-61b01775830e" Param="SheetName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Data" Value="Data" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="8cbef02b-e4dd-492d-94b7-59ee5be90081" Param="SelectRowsWhere" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="TestCase='TC9_RC1_PRV_HSIA_DTV'" Value="TestCase='TC9_RC1_PRV_HSIA_DTV'" />
+</InputValues>
+
+<ReturnValues>
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="18fabd81-06e1-4c52-b2fa-de8daa381447" Param="AddressLine1" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="AddressLine1" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="f331c376-6ca0-41d8-abbd-43b4536e0e9e" Param="UnitType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="UnitType" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="dfb881ba-6d38-4697-850a-92cfaa766ea5" Param="UnitValue" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="UnitValue" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="b949f1a6-9e69-40b6-a44f-40a02879ea37" Param="City" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="City" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="43edb126-dda1-4315-9591-889fa06e59e1" Param="State" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="State" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="00f7d532-d146-4ecd-a3e4-039f18955545" Param="ZipCode" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="Zipcode" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="ca27a7e3-b79c-4841-b1cf-897fa8f726b8" Param="FirstName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="Name" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="f0a82100-6a91-4e39-ae92-e7e64812fa63" Param="LastName" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="LastName" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="fb494dae-2e9a-4e57-8561-a33125f26aea" Param="DOB" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="DOB" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="b90d0c40-00bc-4edc-b71f-0cb98a50d9b9" Param="SSN" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="SSN" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="c5f1185d-ec6d-4347-8c57-e9c2196a28f3" Param="ConfirmSSN" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="ConfirmSSN" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="e4cc5d5f-854c-4b2f-a954-fdf376febe60" Param="PassCode" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="PassCode" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="10c68cc8-df04-4047-82b5-d104127447c0" Param="SeCQue" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="hero" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="db45133e-09db-40f8-bcee-75b57239829a" Param="PromaryPhone" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="PrimaryPhone" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="994ea2af-69ea-4467-8220-589eaf691794" Param="AlternatePhone" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="Secondary Phone" />
+<Amdocs.Ginger.Repository.ActReturnValue Active="True" AddedAutomatically="False" Guid="10c6874a-c6d1-43ff-87c9-7812e09a3713" Param="ContactNumber" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="ContactNumber" />
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActExcel>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="10/4/2018 9:54:59 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="506f80a5-f61d-41bc-8a89-d8917638aa80" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="AddressLine1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 9:59:36 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="e035b4e2-032c-41f9-8342-06b5a2946dbf" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="UnitType" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 9:55:16 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="5ff92ce9-bb51-446b-83e5-bfc22c95edc6" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="UnitValue" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 9:55:54 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="3c298efb-d39b-4782-9362-13f2fa0a56a7" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="City" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 9:56:10 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="318972e5-dc36-462b-ade8-a06880ef28a4" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="State" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 9:56:23 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="07290979-96ef-489c-a861-dfa0fac81139" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Zipcode" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 9:56:35 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="5b501de2-0369-4706-800d-1f856525f166" InitialStringValue="Jp" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Name" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="Jp" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 9:56:46 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="7b6f9453-e4a0-4d8e-9965-7b3d81922310" InitialStringValue="Morgan" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="LastName" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="Morgan" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 9:56:59 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="3bd79683-88ae-4270-a7cf-41be1e7a3dba" InitialStringValue="28011950" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="DOB" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="28011950" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 9:57:09 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="93d7fc4e-b6c7-4e5d-a39d-3b653f517902" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="SSN" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 9:57:17 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="8b47c081-587b-43ba-a511-a5ddb740f602" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="ConfirmSSN" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 10:03:19 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="c705af7f-21f5-434c-a0dc-d065ab732c5b" InitialStringValue="1234" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="PassCode" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="1234" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 10:03:08 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="270bce7b-d5aa-4e9f-a90d-46264e0b5253" InitialStringValue="hero" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="hero" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="hero" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 10:00:43 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="ec54b45f-09cc-47c9-a65c-a83021fb0c7a" InitialStringValue="2143064325" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="PrimaryPhone" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="2143064325" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 10:00:55 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="b7a58f84-51bc-4b21-9963-afe6d1b683fe" InitialStringValue="2143064325" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Secondary Phone" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="2143064325" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="10/4/2018 10:02:55 AM" CreatedBy="surajgh" DiffrentFromOrigin="False" ExternalID="" Guid="9f66d608-6e2e-4a70-acdb-5b2096fa07d5" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="ContactNumber" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

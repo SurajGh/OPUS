@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="4b1816ca-0d1a-4f60-a4be-64af31830e99" ItemType="ProjEnvironment" CreatedBy="surajgh" Created="201810080620" GingerVersion="2.7.0.0" Version="5" LastUpdateBy="surajgh" LastUpdate="201810080629" />
+<ProjEnvironment Active="False" Created="10/8/2018 6:19:48 AM" CreatedBy="surajgh" Guid="4b1816ca-0d1a-4f60-a4be-64af31830e99" LastUpdate="1/1/0001 12:00:00 AM" Name="1808 QC8 MPIE" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<Applications>
+<EnvApplication Active="True" Guid="e79a0a2c-fd47-4972-bf39-53c3a47dffac" Name="MyWebApp" ParentGuid="00000000-0000-0000-0000-000000000000" Url="https://opus-qc-a8.web.att.com/opus ">
+<GeneralParams>
+<GeneralParam Encrypt="False" Guid="82689c99-f725-4820-bce4-342e20869b70" Name="Param 0" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</GeneralParams>
+</EnvApplication>
+<EnvApplication Active="True" Guid="1b79062b-0a84-4d28-87b1-d1a34dc0c95a" Name="OMS" ParentGuid="00000000-0000-0000-0000-000000000000" Url="https://opus-qc-a8.web.att.com/opus ">
+<GeneralParams>
+<GeneralParam Encrypt="False" Guid="7487c23b-2d26-4aa8-ac36-95203700799f" Name="OMS" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</GeneralParams>
+</EnvApplication>
+</Applications>
+</ProjEnvironment></GingerRepositoryItem>

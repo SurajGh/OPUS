@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="1d7a987d-67cf-4453-82fd-5fe669759839" ItemType="ProjEnvironment" CreatedBy="surajgh" Created="201807160718" GingerVersion="2.7.0.0" Version="12" LastUpdateBy="surajgh" LastUpdate="201811140548" />
+<ProjEnvironment Active="False" Created="6/21/2018 11:52:46 AM" CreatedBy="surajgh" Guid="1d7a987d-67cf-4453-82fd-5fe669759839" LastUpdate="7/2/2018 11:50:18 AM" LastUpdateBy="surajgh" Name="1810 QC9 MPIE" ParentGuid="00000000-0000-0000-0000-000000000000" Version="4">
+<Applications>
+<EnvApplication Active="True" Guid="c51ca60e-5336-4048-a9a5-c59f281851bc" Name="OMS" ParentGuid="00000000-0000-0000-0000-000000000000" Url="https://opus-qc-a9.web.att.com">
+<GeneralParams>
+<GeneralParam Encrypt="False" Guid="3b77e828-74b3-43cf-930f-370376a42076" Name="OMS" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</GeneralParams>
+</EnvApplication>
+</Applications>
+</ProjEnvironment></GingerRepositoryItem>
