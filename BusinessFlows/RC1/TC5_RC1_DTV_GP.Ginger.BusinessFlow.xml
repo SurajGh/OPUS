@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="7/16/2018 6:50:30 AM" CreatedBy="surajgh" Elapsed="27701" EnableActivitiesVariablesDependenciesControl="False" Guid="f0b0b7b5-c27f-4077-8943-094ff23ba6ac" LastUpdate="10/4/2018 11:38:35 AM" LastUpdateBy="surajgh" Mandatory="False" Name="TC12_RC1_AMEND_DTV_NFL/NBA season GP" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="100">
+<GingerCore.BusinessFlow Active="True" Created="7/16/2018 6:50:30 AM" CreatedBy="surajgh" Elapsed="27701" EnableActivitiesVariablesDependenciesControl="False" Guid="f0b0b7b5-c27f-4077-8943-094ff23ba6ac" LastUpdate="11/26/2018 7:03:59 AM" LastUpdateBy="surajgh" Mandatory="False" Name="TC12_RC1_AMEND_DTV_NFL/NBA season GP" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="102">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Read data" AutomationStatus="Development" Created="6/22/2018 3:08:56 PM" CreatedBy="surajgh" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" ExternalID="" Guid="6c6b85b7-8b6a-4afc-b274-9df75d1a65f2" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp" Version="0">
 <Acts>
@@ -1064,7 +1064,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 10:21:25 AM" CreatedBy="surajgh" Description="24 Months" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="f53b396f-af31-4d1f-9a19-4138b86bdad3" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="process24MonthOffer" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="8/21/2018 10:21:25 AM" CreatedBy="surajgh" Description="24 Months" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="f53b396f-af31-4d1f-9a19-4138b86bdad3" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByID" LocateValue="process24MonthOffer" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 

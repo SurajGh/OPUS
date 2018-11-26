@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="8/10/2016 11:10:58 AM" CreatedBy="RAVIMU" Elapsed="322077" EnableActivitiesVariablesDependenciesControl="False" Guid="a7227114-bf80-417c-87f3-d07467c9bb11" LastUpdate="11/15/2018 6:04:44 AM" LastUpdateBy="surajgh" Mandatory="False" Name="OPUS Unified Without bundle" ParentGuid="68b43c45-1ff1-4eb6-a65f-4ab965b82bd4" Source="Ginger" Version="317">
+<GingerCore.BusinessFlow Active="True" Created="8/10/2016 11:10:58 AM" CreatedBy="RAVIMU" Elapsed="322077" EnableActivitiesVariablesDependenciesControl="False" Guid="a7227114-bf80-417c-87f3-d07467c9bb11" LastUpdate="11/26/2018 7:03:20 AM" LastUpdateBy="surajgh" Mandatory="False" Name="OPUS Unified Without bundle" ParentGuid="68b43c45-1ff1-4eb6-a65f-4ab965b82bd4" Source="Ginger" Version="318">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Select Store" AutomationStatus="Development" Created="3/28/2016 6:16:27 PM" CreatedBy="ravimu" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1efd9398-6301-4215-9063-8f99a702d036" LastUpdate="8/10/2016 11:13:46 AM" LastUpdateBy="RAVIMU" Mandatory="False" ParentGuid="717501b0-ddde-4951-82bd-fa7162b71ceb" PercentAutomated="80%" TargetApplication="MyWebApp" Version="1">
 <Acts>
@@ -7491,7 +7491,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableRandomString Created="12/30/2015 7:41:41 PM" CreatedBy="RAVIMU" Description="Variable Random String" DiffrentFromOrigin="False" Guid="ec0b9fd8-59e5-4456-9fef-10a29490b635" IsDigit="True" IsLowerCase="False" IsLowerCaseAndDigits="False" IsUpperCase="False" IsUpperCaseAndDigits="False" LastUpdate="1/7/2016 7:41:48 PM" LastUpdateBy="RAVIMU" MappedOutputType="None" Max="4" Min="4" Name="Var" ParentGuid="2b7f2797-2ad1-473d-8097-6ca246c20770" SetAsInputValue="True" SetAsOutputValue="True" Value="7712" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableRandomString Created="12/30/2015 7:41:41 PM" CreatedBy="RAVIMU" Description="Variable Random String" DiffrentFromOrigin="False" Guid="ec0b9fd8-59e5-4456-9fef-10a29490b635" IsDigit="True" IsLowerCase="False" IsLowerCaseAndDigits="False" IsUpperCase="False" IsUpperCaseAndDigits="False" LastUpdate="1/7/2016 7:41:48 PM" LastUpdateBy="RAVIMU" MappedOutputType="None" Max="4" Min="4" Name="Var" ParentGuid="2b7f2797-2ad1-473d-8097-6ca246c20770" SetAsInputValue="True" SetAsOutputValue="True" Value="9639" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableRandomString>
